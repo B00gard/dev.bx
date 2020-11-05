@@ -5,7 +5,7 @@
 
 require_once("readFromConsole.php");
 
-function Sum($sum): int
+function Sum($sum)
 {
 	$input = true;
 
