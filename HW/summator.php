@@ -5,8 +5,9 @@
 
 require_once("readFromConsole.php");
 
-function Sum($sum)
+function Sum()
 {
+	$sum = 0;
 	$input = true;
 
 	while ($input !== null)
@@ -20,5 +21,4 @@ function Sum($sum)
 	return $sum;
 }
 
-$sum = 0;
-echo 'Результат сложения чисел: '.Sum($sum);
+echo 'Результат сложения чисел: '.Sum();
