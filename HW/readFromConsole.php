@@ -8,19 +8,18 @@ function readFromConsole(string $question)
 	switch ($input)
 	{
 		case '':
-			$input = null;
-			break;
+			return null;
+
 		case 'true':
-			$input = true;
-			break;
+			return true;
+
 		case 'false':
-			$input = false;
-			break;
+			return false;
+
 		case is_numeric($input):
-			$input = +$input;
-			break;
+			return +$input;
+
 		default:
-			$input = (string)$input;
+			return (string)$input;
 	}
-	return $input;
 }
