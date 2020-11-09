@@ -1,26 +1,27 @@
 <?php
 
 require_once('TDD_readFromConsole.php');
+require_once ('assertEquals.php');
 
 function testReadFromConsole()
 {
 	$result = readFromConsole('', 'true');
-	echo 'Test1 "true" = true:'.(($result === true) ? ' passed':' failed').PHP_EOL;
+	echo assertEquals(true, $result, 'Test1 "true" = true').PHP_EOL;
 	$result = readFromConsole('', 'false');
-	echo 'Test2 "false" = false:'.(($result === false) ? ' passed':' failed').PHP_EOL;
+	echo assertEquals(false, $result, 'Test2 "false" = false').PHP_EOL;
 	$result = readFromConsole('', '!stop');
-	echo 'Test3 "!stop" = null:'.(($result === null) ? ' passed':' failed').PHP_EOL;
+	echo assertEquals(null, $result, 'Test3 "!stop" = null').PHP_EOL;
 	$result = readFromConsole('', '1.3');
-	echo 'Test4 "1.3" = 1.3:'.(($result === 1.3) ? ' passed':' failed').PHP_EOL;
+	echo assertEquals(1.3, $result, 'Test4 "1.3" = 1.3').PHP_EOL;
 	$result = readFromConsole('', '1');
-	echo 'Test5 "1" = 1:'.(($result === 1) ? ' passed':' failed').PHP_EOL;
+	echo assertEquals(1, $result, 'Test5 "1" = 1').PHP_EOL;
 	$result = readFromConsole('', 'test');
-	echo 'Test6 "test" = "test":'.(($result === 'test') ? ' passed':' failed').PHP_EOL.PHP_EOL;
+	echo assertEquals('test', $result, 'Test6 "test" = "test"').PHP_EOL;
 
 	$result = readFromConsole('', 'null');
-	echo 'Test7 "null" = "null":'.(($result === 'null') ? ' passed':' failed').PHP_EOL;
+	echo assertEquals('null', $result, 'Test7 "null" = "null":').PHP_EOL;
 	$result = readFromConsole('', '');
-	echo 'Test8 "" = "":'.(($result === '') ? ' passed':' failed').PHP_EOL;
+	echo assertEquals('', $result, 'Test8 "" = "":').PHP_EOL;
 }
 
 testReadFromConsole();
