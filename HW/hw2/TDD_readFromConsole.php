@@ -2,7 +2,11 @@
 
 function readFromConsole(string $question, string $test_input = null)
 {
-	echo $question.': ';
+	if ($question !== '')
+	{
+		echo $question.': ';
+	}
+
 	$input = $test_input=== null ? trim(fgets(STDIN)): $test_input;
 
 	switch ($input)
