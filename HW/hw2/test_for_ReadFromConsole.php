@@ -2,7 +2,7 @@
 
 require_once('TDD_readFromConsole.php');
 
-function test_readFromConsole()
+function testReadFromConsole()
 {
 	$result = readFromConsole('', 'true');
 	echo 'Test1 "true" = true:'.(($result === true) ? ' passed':' failed').PHP_EOL;
@@ -23,4 +23,4 @@ function test_readFromConsole()
 	echo 'Test8 "" = "":'.(($result === '') ? ' passed':' failed').PHP_EOL;
 }
 
-test_readFromConsole();
+testReadFromConsole();
