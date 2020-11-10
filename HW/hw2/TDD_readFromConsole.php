@@ -7,7 +7,7 @@ function readFromConsole(string $question, string $test_input = null)
 		echo $question.': ';
 	}
 
-	$input = $test_input=== null ? trim(fgets(STDIN)): $test_input;
+	$input = $test_input ?? trim(fgets(STDIN));
 
 	switch ($input)
 	{
