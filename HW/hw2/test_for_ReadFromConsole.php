@@ -24,8 +24,6 @@ function testReadFromConsole()
 	echo assertEquals('', $result, 'Test8 "" = "":').PHP_EOL;
 	$result = readFromConsole('', '0');
 	echo assertEquals(0, $result, 'Test9 "0" = 0:').PHP_EOL;
-	$result = readFromConsole('', '1');
-	echo assertEquals(1, $result, 'Test10 "1" = 1:').PHP_EOL;
 }
 
 testReadFromConsole();
