@@ -11,9 +11,6 @@ function readFromConsole(string $question, string $test_input = null)
 
 	switch ($input)
 	{
-		case '':
-			return '';
-
 		case '!stop':
 			return null;
 
@@ -22,11 +19,15 @@ function readFromConsole(string $question, string $test_input = null)
 
 		case 'false':
 			return false;
-
-		case is_numeric($input):
-			return +$input;
-
-		default:
-			return (string)$input;
 	}
+
+	if (is_numeric($input))
+	{
+		return +$input;
+	}
+	else
+	{
+		return (string)$input;
+	}
+
 }
