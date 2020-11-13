@@ -25,9 +25,6 @@ function readFromConsole(string $question, string $test_input = null)
 	{
 		return +$input;
 	}
-	else
-	{
-		return (string)$input;
-	}
+	return (string)$input;
 
 }
