@@ -58,7 +58,7 @@ function testGetDirectoryStatus()
 			'assertEquals.php'=>['is_readable'=>'true', 'is_writable'=>'true','size'=>199,],
 			'file4.php'=>['is_readable'=>'true', 'is_writable'=>'true','size'=>187,],
 			'getDirectoryStatus.php'=>['is_readable'=>'true', 'is_writable'=>'true','size'=>1350,],
-			'testGetDirectoryStatus.php'=>['is_readable'=>'true', 'is_writable'=>'true','size'=>2996,],
+			'testGetDirectoryStatus.php'=>['is_readable'=>'true', 'is_writable'=>'true','size'=>2997,],
 		],
 		];
 	echo assertEquals($testArray, getDirectoryStatus('.'),'Test7: вывод содержимого папки hw3').PHP_EOL;
