@@ -1,0 +1,168 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	width: 1440px;
+	height: 1711px;
+}
+
+/*region Секции*/
+
+.section {
+	width: 100%;
+	border-bottom: 1px solid white;
+	border-top:1px solid white;
+	padding: 40px 0 170px;
+
+}
+
+.section.first-section {
+	background: rgba(0, 101, 242, 0.12);
+	border-bottom: 1px solid rgba(0, 101, 242, 0.12);
+	padding: 0;
+}
+
+.section.second-section {
+	padding: 60px 0;
+	border: 0;
+}
+
+/*endregion*/
+
+/*region Контент*/
+
+.content {
+	width: 100%;
+	font-family: Helvetica Neue, "Open Sans", sans-serif;
+}
+
+.content.first {
+	width: 540px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.content.second {
+	width: 610px;
+	padding: 40px 0 0 165px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 110px 0 0;
+}
+
+.content.third {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+/*endregion*/
+
+/*region Наполнение контента*/
+
+.logos {
+	width: 400px;
+	height: 85px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.thumb1 {margin:0 29px;}
+.thumb2 {margin-left: 29px;}
+
+/*region Заголовки */
+
+h1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: -0.5px;
+	font-size: 40px;
+	line-height: 48px;
+}
+
+h2 {
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: -1px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	padding-bottom: 40px;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+/*endregion*/
+
+/*region Абзацы*/
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	padding: 16px 0;
+}
+
+p.big {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: normal;
+	padding-top: 24px;
+	padding-bottom: 43px;
+}
+
+p.big.centre {
+	text-align: center;
+	padding-bottom: 0;
+}
+
+p.indent {
+	padding: 10px 0 22px;
+}
+
+/*endregion*/
+
+a {
+	width: 88px;
+	color: #0065F2;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	text-decoration: none;
+	padding-bottom: 1px;
+}
+
+img.bigpict {
+	vertical-align: top;
+}
+
+ul {
+	list-style-position: inside;
+	padding: 0;
+}
+
+li {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+	padding: 4px 0;
+}
+
+span {
+	color: #0065f2;
+}
+
+/*endregion*/
+
