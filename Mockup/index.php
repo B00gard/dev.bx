@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Homework</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
@@ -13,13 +13,15 @@
 	<div class="content first">
 		<h1>Long headline for two lines for attention and evolving</h1>
 		<p class="big centre">
-			With the new AirPlay 2, you can control your home audio system and the speakers throughout your house.4 You can play a song in the living room and your kitchen at the same time.
+			With the new AirPlay 2, you can control your home audio system
+			and the speakers throughout your house.4 You can play a song
+			in the living room and your kitchen at the same time.
 		</p>
 		<div class="logos">
-			<img src="Vector1.svg" alt="" width="91.55" height="22.67">
-			<img src="Vector2.png" alt="" width="45" height="45" class="thumb2">
-			<img src="Logo1.png" alt="" width="52" height="25" class="thumb1">
-			<img src="Logo2.png" alt="" width="110" height="18">
+			<img src="Vector1.svg" alt="" width="91.55" height="22.67"/>
+			<img src="Vector2.png" alt="" width="45" height="45" class="thumb2"/>
+			<img src="Logo1.png" alt="" width="52" height="25" class="thumb1"/>
+			<img src="Logo2.png" alt="" width="110" height="18"/>
 		</div>
 	</div>
 </div>
@@ -36,7 +38,7 @@
 			<div class="link">
 				<a href="">Action link</a>
 			</div>
-		</div><img src="Image.png" alt="" width="555" height="380" class="bigpict">
+		</div><img src="Image.png" alt="" width="555" height="380" class="bigpict"/>
 	</div>
 </div>
 
