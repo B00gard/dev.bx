@@ -25,16 +25,19 @@
 </div>
 
 <div class="section second-section">
-	<div class="content second">
-		<h2>Medium length display headline</h2>
-		<p class="big">
-			Separated they live in Bookmarks right at the coast
-			of the famous Semantics, large language ocean Separated
-			they live in Bookmarks right
-		</p>
-		<a href="">Action link</a>
-	</div>
-	<img src="Image.png" alt="" width="555" height="380" class="bigpict">
+	<div class="section second-section-content">
+		<div class="content second">
+			<h2>Medium length display headline</h2>
+			<p class="big">
+				Separated they live in Bookmarks right at the coast
+				of the famous Semantics, large language ocean Separated
+				they live in Bookmarks right
+			</p>
+			<div class="link">
+				<a href="">Action link</a>
+			</div>
+
+		</div><img src="Image.png" alt="" width="555" height="380" class="bigpict"></div>
 </div>
 
 <div class="section">

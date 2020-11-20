@@ -4,7 +4,7 @@
 }
 
 body {
-	width: 1440px;
+	max-width: 100%;
 	height: 1711px;
 }
 
@@ -12,21 +12,21 @@ body {
 
 .section {
 	width: 100%;
-	border-bottom: 1px solid white;
-	border-top:1px solid white;
-	padding: 40px 0 170px;
-
+	max-width: 100%;
 }
 
 .section.first-section {
 	background: rgba(0, 101, 242, 0.12);
-	border-bottom: 1px solid rgba(0, 101, 242, 0.12);
+
 	padding: 0;
+	border-bottom: 1px solid rgba(0, 101, 242, 0.12);
 }
 
-.section.second-section {
-	padding: 60px 0;
-	border: 0;
+.section.second-section {padding: 60px 0;}
+
+.section.second-section-content {
+	width: 1110px;
+	margin: 0 auto;
 }
 
 /*endregion*/
@@ -35,55 +35,97 @@ body {
 
 .content {
 	width: 100%;
+	max-width:100%;
+	min-width: 545px;
 	font-family: Helvetica Neue, "Open Sans", sans-serif;
 }
 
 .content.first {
 	width: 540px;
 	margin: 0 auto;
-	padding: 60px 0;
+	padding: 60px 0 59px;
 }
 
 .content.second {
-	width: 610px;
-	padding: 40px 0 0 165px;
+	width: 545px;
+	padding: 40px 110px 0 0;
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 110px 0 0;
 }
 
 .content.third {
 	width: 1110px;
+	padding-top: 40px;
+	padding-bottom: 170px;
 	margin: 0 auto;
+}
+
+.link {
+	width: 111px;
+	padding-top: 40px;
 }
 
 /*endregion*/
 
 /*region Наполнение контента*/
 
-.logos {
-	width: 400px;
-	height: 85px;
-	margin: 0 auto;
-	padding-top: 40px;
+a {
+	width: 100%;
+
+	padding: 3px 0 1px 0;
+
+	color: #0065F2;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+
+	text-decoration: none;
 }
 
-img {
-	vertical-align: middle;
+a:hover {text-decoration: underline;}
+
+.logos {
+	width: 400px;
+
+	padding-top: 40px;
+	margin: 0 auto;
 }
 
 .thumb1 {margin:0 29px;}
 .thumb2 {margin-left: 29px;}
 
+img {vertical-align: middle;}
+
+img.bigpict {vertical-align: top;}
+
+span {color: #0065f2;}
+
+ul {
+	padding: 0;
+
+	list-style-position: inside;
+}
+
+li {
+	padding: 4px 0;
+
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+}
+
 /*region Заголовки */
 
 h1 {
 	width: 100%;
+
 	margin: 0 auto;
-	text-align: center;
-	letter-spacing: -0.5px;
+
 	font-size: 40px;
 	line-height: 48px;
+	letter-spacing: -0.5px;
+	text-align: center;
+
 }
 
 h2 {
@@ -93,9 +135,10 @@ h2 {
 }
 
 h3 {
+	padding-bottom: 40px;
+
 	font-size: 24px;
 	line-height: 32px;
-	padding-bottom: 40px;
 }
 
 h4 {
@@ -109,60 +152,26 @@ h4 {
 /*region Абзацы*/
 
 p {
+	padding: 16px 0;
+
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.1px;
-	padding: 16px 0;
 }
 
 p.big {
+	padding: 24px 0 0 0;
+
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: normal;
-	padding-top: 24px;
-	padding-bottom: 43px;
 }
 
-p.big.centre {
-	text-align: center;
-	padding-bottom: 0;
-}
+p.big.centre {text-align: center;}
 
-p.indent {
-	padding: 10px 0 22px;
-}
+p.indent {padding: 10px 0 22px;}
 
 /*endregion*/
-
-a {
-	width: 88px;
-	color: #0065F2;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 28px;
-	text-decoration: none;
-	padding-bottom: 1px;
-}
-
-img.bigpict {
-	vertical-align: top;
-}
-
-ul {
-	list-style-position: inside;
-	padding: 0;
-}
-
-li {
-	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.1px;
-	padding: 4px 0;
-}
-
-span {
-	color: #0065f2;
-}
 
 /*endregion*/
 
