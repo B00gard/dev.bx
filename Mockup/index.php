@@ -16,7 +16,7 @@
 			With the new AirPlay 2, you can control your home audio system and the speakers throughout your house.4 You can play a song in the living room and your kitchen at the same time.
 		</p>
 		<div class="logos">
-			<img src="Vector1.svg" alt="" width="91.55" height="22.67" >
+			<img src="Vector1.svg" alt="" width="91.55" height="22.67">
 			<img src="Vector2.png" alt="" width="45" height="45" class="thumb2">
 			<img src="Logo1.png" alt="" width="52" height="25" class="thumb1">
 			<img src="Logo2.png" alt="" width="110" height="18">
@@ -36,8 +36,8 @@
 			<div class="link">
 				<a href="">Action link</a>
 			</div>
-
-		</div><img src="Image.png" alt="" width="555" height="380" class="bigpict"></div>
+		</div><img src="Image.png" alt="" width="555" height="380" class="bigpict">
+	</div>
 </div>
 
 <div class="section">
