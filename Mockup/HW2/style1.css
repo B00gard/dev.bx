@@ -419,8 +419,6 @@ label {
 	margin: 0;
 }
 
-
-
 .LoginPage h4 {
 	padding-bottom: 47px;
 	margin: 0;
@@ -447,6 +445,239 @@ label {
 	line-height: 21px;
 }
 
+
+/*endregion*/
+
+/*region UISTYLE*/
+
+.content-UiStyle {
+	max-width: 100%;
+	padding: 40px 27px  167px 46px;
+}
+
+.content-UiStyle h1 {
+	padding-top: 33px;
+	padding-right: 24px;
+
+	font-size: 64px;
+	line-height: 52px;
+}
+
+.content-UiStyle h2 {
+	padding-top: 48px;
+	padding-right: 24px;
+
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.content-UiStyle h3 {
+	padding:65px 38px 65px 0;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.content-UiStyle p {
+	width: 422px;
+
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0 0 0 auto;
+}
+
+.content-UiStyle label {
+	margin-bottom: 28px;
+}
+
+.forms {
+	padding: 104px 38px 0 0;
+}
+
+.content-UiStyle .form-control {
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #333333;
+}
+
+.form-control.form-yellow {
+	border: 1px solid #F2C94C;
+}
+
+.form-control.form-red {
+	border: 1px solid #EF0000;
+}
+
+.heading-ui {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+a.yellowLinks {
+	color: #f2c94c;
+	text-decoration: underline;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+a.yellowLinks:hover {
+	color: #FEDE7D;
+	text-decoration: none;
+}
+
+a.yellowLinks:active {
+	font-weight: 500;
+	text-decoration: none;
+}
+
+a.blackLinks {
+	color: black;
+	text-decoration: underline;
+	font-size: 14px;
+	line-height: 19px;
+}
+
+a.blackLinks:hover {
+	text-decoration: none;
+}
+
+a.blackLinks:active {
+	text-decoration: none;
+}
+
+.content-UiStyle .btn.btn-dark {
+	background: black;
+	padding: 0;
+}
+
+.smallbtn {
+	max-width: 100%;
+	width: 187px;
+	height: 40px;
+
+}
+
+.bigbtn {
+	max-width: 100%;
+	width: 280px;
+	height: 64px;
+}
+
+.btn-warning:hover {
+	background: #FEDE7D;
+	color: black;
+}
+
+.btn-dark:hover {
+	background:#363636;
+	color: white;
+}
+
+.btn-primary.btn-dark:not(:disabled):not(.disabled).active, .btn-primary.btn-dark:not(:disabled):not(.disabled):active, .show>.btn-primary.btn-dark.dropdown-toggle {
+	background-color: #000000;
+	color: white;
+}
+
+.btn-primary.btn-dark.focus, .btn-primary.btn-dark:focus {
+	background-color: #000000;
+	color: white;
+}
+
+.btn-primary.btn-warning:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background-color: #F9C21C;
+	color: black;
+}
+
+.btn-primary.btn-warning.focus, .btn-primary:focus {
+	background-color: #F9C21C;
+	color: black;
+}
+
+.palette {
+	display: inline-flex;
+	align-items: center;
+	padding-top: 49px;
+	padding-left: 15px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	margin-right: 24px;
+}
+
+.square.first {
+	background-color: #F2F2F2;
+}
+
+.square.second {
+	background-color:#333333
+}
+
+.square.third {
+	background-color: #F2C94C;
+}
+
+.wrap1 .col-4 {
+	padding: 38px 15px 0;
+}
+
+.color {
+	padding: 0 106px 0 0;
+}
+
+
+/*region FOOTER*/
+
+.wrap1 footer {
+	padding-top: 0;
+	padding-left: 66px;
+	padding-bottom: 106px;
+	background: #333333;
+	color: #FFFFFF;
+}
+
+.wrap1 .footer-UiStyle {
+	padding: 0;
+}
+
+footer .logos {
+	padding-top: 48px;
+}
+
+footer .smallTitle {
+	padding-top: 42px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.links {
+	width: 220px;
+	padding-top: 17px;
+	font-weight: 400;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a.footer-link-ui {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+a.footer-link-ui:hover {
+	text-decoration: underline;
+}
+
+a.footer-link-ui:active {
+	text-decoration: underline;
+	color: #B7B7B7 !important;
+}
+
+/*endregion*/
 
 /*endregion*/
 
