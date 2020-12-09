@@ -1,5 +1,5 @@
 <footer>
-	<div class="footer-content container">
+	<div class="container">
 		<div class="row">
 			<div class="col-4 text-white text-left">
 				<div class="row"> <div class="logo">TRADE</div></div>

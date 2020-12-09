@@ -14,7 +14,7 @@
 					ut labore et dolore magna aliqua.
 				</p>
 				<div class="col-4">
-					<ul class="content-detail-ul">
+					<ul class="content-details-ul">
 						<li>
 							Benefit of Feature
 						</li>
@@ -27,24 +27,24 @@
 					</ul>
 				</div>
 				<div class="col text-left btn-middle-detailPage">
-					<a href="" class="btn btn-lg btn-warning btn-detailPage">Buy</a>
+					<a href="" class="btn btn-lg btn-warning">Buy</a>
 				</div>
 			</div>
 			<div class="col-5">
-				<img src="images/moto4.png" alt="" class="content-detail-image"/>
+				<img src="images/moto4.png" alt=""/>
 			</div>
 		</div>
 	</div>
 </div>
 
-<div class="content-proposition">
+<div class="content-table">
 	<div class="container">
 		<div class="row"><h1 class="font-weight-bold">Value Proposition</h1></div>
 		<div class="row">
 			<table class="table table-bordered">
 				<thead>
 					<tr class="table-secondary">
-						<th scope="col" class="text-center smallColumn">Value Name</th>
+						<th scope="col" class="text-center smallCol">Value Name</th>
 						<th scope="col" class="text-left">Property</th>
 					</tr>
 				<tbody>
@@ -77,13 +77,11 @@
 		</div>
 		<div class="row">
 			<div class="col text-left btn-middle-detailPage">
-				<a href="" class="btn btn-lg btn-warning btn-detailPage">Buy</a>
+				<a href="" class="btn btn-lg btn-warning">Buy</a>
 			</div>
 		</div>
 	</div>
 </div>
-
-
 
 <?php
 include_once "footer1.php";
