@@ -7,7 +7,7 @@ CREATE TABLE store
 
 INSERT INTO store (CITY) VALUES ('Калининград'),('Черняховск'), ('Советск');
 
-CREATE TABLE books_store
+CREATE TABLE book_store
 (
 	BOOK_ID int not null,
 	STORE_ID int not null,
@@ -23,14 +23,14 @@ CREATE TABLE books_store
 		ON DELETE RESTRICT
 );
 
-INSERT INTO books_store (BOOK_ID, STORE_ID, PRICE, QUANTITY)
+INSERT INTO book_store (BOOK_ID, STORE_ID, PRICE, QUANTITY)
 SELECT book.ID,
        (select store.ID from store where store.CITY = 'Калининград'),
        book.PRICE,
        book.QUANTITY
 FROM book;
 
-INSERT INTO books_store (BOOK_ID, STORE_ID)
+INSERT INTO book_store (BOOK_ID, STORE_ID)
 SELECT book.ID, store.ID from book, store where store.CITY != 'Калининград';
 
 ALTER TABLE book DROP COLUMN PRICE;
