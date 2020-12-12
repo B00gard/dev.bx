@@ -1,4 +1,3 @@
-/**/
 CREATE TABLE store
 (
     ID int not null auto_increment,
@@ -36,9 +35,4 @@ SELECT book.ID, store.ID from book, store where store.CITY != 'Калининг�
 
 ALTER TABLE book DROP COLUMN PRICE;
 ALTER TABLE book DROP COLUMN QUANTITY;
-/**/
-
-
-
-
 
