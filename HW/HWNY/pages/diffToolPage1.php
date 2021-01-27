@@ -16,7 +16,7 @@ require_once("header.html");
 				</p>
 			</div>
 		</div>
-		<p class="text-center"><input type="submit" value="Отправить"></p>
+		<p class="text-center"><input type="submit" value="Сравнить"></p>
 	</form>
 </body>
 </html>
