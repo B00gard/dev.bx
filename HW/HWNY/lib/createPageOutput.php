@@ -1,6 +1,6 @@
 <?php
 
-require_once("../lib/pageClass.php");
+require_once("pageClass.php");
 
 function createPage(array $texts, string $pageName)
 {

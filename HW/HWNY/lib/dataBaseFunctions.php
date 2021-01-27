@@ -1,6 +1,6 @@
 <?php
 
-require_once("../lib/db_config.php");
+require_once("../config/db_config.php");
 
 function insert(string $pageName, string $sha)
 {
