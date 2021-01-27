@@ -38,7 +38,7 @@ function createPathPage($texts): array
 	}
 	catch (Exception $e)
 	{
-		$rand = rand(1, 100);
+		$rand = (string)rand(1, 100);
 	}
 
 	$pageName = "DBpages/$rand.html";
