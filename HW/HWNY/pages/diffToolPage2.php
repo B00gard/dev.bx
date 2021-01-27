@@ -1,9 +1,8 @@
 <?php
 
 require_once("../lib/diffToolClass.php");
-require_once("../lib/pageClass.php");
 require_once("../lib/db_config.php");
-require_once ("../lib/createPageOutput.php");
+require_once("../lib/createPageOutput.php");
 
 $text1 = $_POST['text1'] ?? '';
 $text2 = $_POST['text2'] ?? '';
