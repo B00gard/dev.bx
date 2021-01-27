@@ -1,5 +1,7 @@
 <?php
 
+require_once("../lib/pageClass.php");
+
 function createPage(array $texts, string $pageName)
 {
 	$f = fopen($pageName, 'w');
